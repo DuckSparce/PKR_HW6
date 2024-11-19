@@ -4,6 +4,13 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
+        <img src={"/Andrii_photo.jpg"} alt="Andrii" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrii Kityk</h2>
+          <p style={styles.position}>Product owner</p>
+        </div>
+      </div>
+      <div style={styles.card}>
         <img src={"/avatar-artem.jpg"} alt="Artem Kachur" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Artem Kachur</h2>
