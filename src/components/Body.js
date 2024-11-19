@@ -10,6 +10,13 @@ const Body = () => {
           <p style={styles.position}>Product owner</p>
         </div>
       </div>
+      <div style={styles.card}>
+        <img src={"/avatar-artem.jpg"} alt="Artem Kachur" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Artem Kachur</h2>
+          <p style={styles.position}>QA Engineer</p>
+        </div>
+      </div>
     </main>
   );
 };
