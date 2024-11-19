@@ -7,7 +7,7 @@ const Body = () => {
         <img src={"/avatar-nazar.png"} alt="Nazarii Dziurakh" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Nazarii Dziurakh</h2>
-          <p style={styles.position}>Software engineer</p>
+          <p style={styles.position}>Frontend developer</p>
         </div>
       </div>
     </main>
