@@ -1,17 +1,31 @@
 import React from "react";
 
 const Body = () => {
-    return (
-        <main style={styles.body}>
-            <div style={styles.card}>
-                <img src={"/avatar_liza.png"} alt="Liza Davydenko" style={styles.photo} />
-                <div style={styles.textContainer}>
-                    <h2 style={styles.name}>Liza Davydenko</h2>
-                    <p style={styles.position}>Designer</p>
-                </div>
-            </div>
-        </main>
-    );
+  return (
+    <main style={styles.body}>
+      <div style={styles.card}>
+        <img src={"/Andrii_photo.jpg"} alt="Andrii" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrii Kityk</h2>
+          <p style={styles.position}>Product owner</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-artem.jpg"} alt="Artem Kachur" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Artem Kachur</h2>
+          <p style={styles.position}>QA Engineer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+          <img src={"/avatar_liza.png"} alt="Liza Davydenko" style={styles.photo} />
+          <div style={styles.textContainer}>
+              <h2 style={styles.name}>Liza Davydenko</h2>
+              <p style={styles.position}>Designer</p>
+          </div>
+      </div>
+    </main>
+  );
 };
 
 const styles = {
